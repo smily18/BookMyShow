@@ -58,7 +58,7 @@ const NavLg = () => {
       <div className="w-full flex justify-between items-center">
         <div className="w-1/2">
           <div>
-            <img src="../public/favicon.ico"alt="Icon"/>
+            <img src="../public/favicon.ico"alt="Icon "/>
           </div>
           <div className="w-full flex gap-3 items-center bg-white px-3 py-2 rounded-md">
             <IoIosSearch />
