@@ -6,9 +6,9 @@ import Premier from "../components/Premier/Premier.component";
 const Homepage = () => {
   return (
     <>
-    <div className="container mx-auto px-32">
+    <div className="container mx-auto px-10">
       <h1 className="text-2xl font-bold text-gray-900 my-3">
-      The best of Entertainment
+      The Best of Entertainment
       </h1>
       <EntertainmentCardSlider />
       <Premier />
