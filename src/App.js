@@ -1,5 +1,5 @@
 import {Route } from "react-router-dom";
-import axios from "axois";
+import axios from "axios";
 
 //HOC
 import DefaultHOC from "./HOC/Default.HOC";
