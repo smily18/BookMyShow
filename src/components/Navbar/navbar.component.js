@@ -1,6 +1,7 @@
 import React from "react";
 import {BiChevronRight} from "react-icons/bi";
 import {IoIosSearch} from "react-icons/io";
+import LOGO from "../../images/images.js";
 
 const NavSm = () => {
   return(
@@ -58,7 +59,7 @@ const NavLg = () => {
       <div className="w-full flex justify-between items-center">
         <div className="w-2/3 flex items-center">
           <div className="text-white text-xl flex items-center mx-14">
-            book<img src="https://lh3.googleusercontent.com/proxy/XnoD1F5BtGNGnyqYmiiLWCG_JKdyB0QNEfBL31DetJuNjV2rwW-v85O6Mb2jx6ZBW4z5ayJXfH7ALHU-9KlHqC_T-66CO9NBqOWUg9Q" className="h-8 w-8 pt-1" alt="Icon"/>show
+            <h1 className="text-white text-xl mt-1">book</h1><img src="./my.png" alt="logo"/><h1 className="text-white text-xl mt-1">show</h1>
           </div>
           <div className="w-full flex gap-3 items-center bg-white px-3 py-2 rounded-md">
             <IoIosSearch />

@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 import Poster from "../Poster/poster.component";
 
-const Premier = () => {
+const Premier = (props) => {
   const settings = {
     infinity: true,
     slidesToShow: 5,
